@@ -25,12 +25,13 @@
       </v-btn>
       <v-toolbar-title v-text="title" />
           
-      <Loading></Loading>
 
       <v-spacer />
       <v-btn icon @click.stop="rightDrawer = !rightDrawer">
         <v-icon>mdi-menu</v-icon>
       </v-btn>
+            <Loading></Loading>
+
     </v-app-bar>
     <v-main>
       <v-container>
